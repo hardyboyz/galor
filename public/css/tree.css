@@ -5,14 +5,30 @@
  * Project Author: Peiwen Lu (https://codepen.io/P233);
  */
 
+ .view-option {
+    position: fixed;
+    top: 20%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 100px;
+  }
+
 *, *:before, *:after {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+a {
+    font-size:large;
+}
 
 body {
     padding-bottom: 50px;
+}
+
+.bg-warning {
+    background-color: #96f1ff;
 }
 
 #wrapper {
@@ -32,6 +48,34 @@ body {
 #wrapper .branch .lv2 span.label {
     width: 30px;
 }*/
+.lv1 > .entry > span.label {
+    background-color: #59e9ff;
+}
+
+.lv2 > .entry > span.label {
+    background-color: #fccfff;
+}
+
+.lv3 > .entry > span.label {
+    background-color: #ffe9ed;
+}
+
+.lv4 > .entry > span.label {
+    background-color: #d3f9ff;
+}
+
+.lv5 > .entry > span.label {
+    background-color: #fccfff;
+}
+
+.lv6 > .entry > span.label {
+    background-color: black;
+}
+
+.lv7 > .entry > span.label {
+    background-color: black;
+}
+
 .branch:before {
     content: "";
     width: 30px;
