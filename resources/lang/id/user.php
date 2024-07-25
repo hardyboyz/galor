@@ -34,9 +34,9 @@ return [
     'add_child_from_existing_couples' => 'Dari Pernikahan (pilih pasangan :name)',
 
     // Attributes
-    'name'     => 'Nama',
+    'name'     => 'Nama Lengkap',
     'nickname' => 'Nama Panggilan',
-    'gender'   => 'Jenis Kelamin',
+    'gender'   => 'Gender',
     'father'   => 'Ayah',
     'mother'   => 'Ibu',
     'parent'   => 'Orang Tua',

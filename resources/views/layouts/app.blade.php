@@ -12,10 +12,14 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    
     @yield('ext_css')
     <style>
     .page-header {
         margin-top: 0px;
+    }
+    .mt-10{
+        margin-top: 10px;
     }
     </style>
 </head>

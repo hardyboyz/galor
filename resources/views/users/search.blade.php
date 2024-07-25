@@ -8,7 +8,6 @@
     @endif
 </h2>
 
-
 {{ Form::open(['method' => 'get','class' => '']) }}
 <div class="input-group">
     {{ Form::text('q', request('q'), ['class' => 'form-control', 'placeholder' => trans('app.search_your_family_placeholder')]) }}
@@ -18,6 +17,8 @@
     </span>
 </div>
 {{ Form::close() }}
+
+
 
 @if (request('q'))
 <br>
@@ -52,4 +53,8 @@
 
 {{ $users->appends(Request::except('page'))->render() }}
 @endif
+<div style="margin-top:3em">
+<iframe width="40%" height="400px" src="https://www.youtube.com/embed/5Xf0oLnY59o?si=dCCjxX3j1bpPZ6oo&amp;start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="40%" height="400px" src="https://www.youtube.com/embed/ZbBs3DwNQlI" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 @endsection
