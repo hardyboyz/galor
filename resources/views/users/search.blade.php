@@ -54,7 +54,11 @@
 {{ $users->appends(Request::except('page'))->render() }}
 @endif
 <div style="margin-top:3em">
-<iframe width="40%" height="400px" src="https://www.youtube.com/embed/5Xf0oLnY59o?si=dCCjxX3j1bpPZ6oo&amp;start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<iframe width="40%" height="400px" src="https://www.youtube.com/embed/ZbBs3DwNQlI" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div class="col-md-6 col-xs-12">
+    <iframe width="100%" height="400px" src="https://www.youtube.com/embed/5Xf0oLnY59o?si=dCCjxX3j1bpPZ6oo&amp;start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div class="col-md-6 col-xs-12">
+    <iframe width="100%" height="400px" src="https://www.youtube.com/embed/ZbBs3DwNQlI" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
 </div>
 @endsection
